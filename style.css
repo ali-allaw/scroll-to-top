@@ -1,0 +1,23 @@
+body {
+    height: 5000px;
+}
+.up {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    position: fixed;
+    right: -30px;
+    bottom: 10px;
+    /* display: none; */
+    scroll-behavior: smooth;
+    z-index: 100;
+    cursor: pointer;
+    transition: .3s;
+}
+/* position fixed is so importanttttttttttttttttttttttttttttttttt */
+.up.show {
+    right: 10px;
+}
